@@ -32,6 +32,8 @@ async function main(){
    drawTotal(db);
    handleBuy(db)
 
+   // const bdark = document.querySelector()
+
    
 }
 

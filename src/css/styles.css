@@ -10,8 +10,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .academlo{
+    
     display: flex;    
     gap: 1rem;
+    
+    
 
 }
 
@@ -178,9 +181,11 @@ a{
 }
 
 .btn__buy{
+    color: #fff;
     padding: 1rem;
     border: none;
     cursor: pointer;
+    background-color: #000;
 }
 
 
@@ -319,6 +324,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
 
 
 @media(max-width: 767){
