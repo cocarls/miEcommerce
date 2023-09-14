@@ -85,10 +85,10 @@ export   function handleOptionsCart(db){
 export   function handleBuy(db){
     document.querySelector(".btn__buy").addEventListener("click",()=>{
        if(Object.values(db.cart).length === 0){
-          return alert ("primero debes comprar algo");
+          return Swal.fire('primero debes comprar algo');
        }
        
-       const response = confirm("seguro quieres comprar?");
+       const response =  confirm("seguro quieres comprar?");
        if(!response) return;
        
        
